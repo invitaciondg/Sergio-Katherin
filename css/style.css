@@ -779,8 +779,16 @@ section.cuenta-regresiva .corazon-falta g.corazon path {
 }
 
 
-/* ---------- */
+/* -- Información Padres y Padrinos -- */
+section.Padres{
+  padding-bottom: 50px;
+  position: relative;
+  background-color: var(--color-fondo-secciones);
+}
 
+section.Padres .frase p{
+  color: var(--color-pallete-2);
+}
 
 
 
