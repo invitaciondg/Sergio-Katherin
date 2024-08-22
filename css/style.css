@@ -15,7 +15,7 @@
   --color-pallete-10: #05164d;
   --color-pallete-11: #294c7a;
   /*ampersand "&"*/
-  --color-pallete-12: #294c7a8a;
+  --color-pallete-12: #294c7a5a;
   /*txt bienvenida*/
   --color-pallete-13: #05164d;
   /* ----------------------- */
@@ -784,9 +784,16 @@ section.Padres{
   padding-bottom: 50px;
   position: relative;
   background-color: var(--color-fondo-secciones);
+  font-family: var(--fuente-2);
+  font-size: 18px;
 }
 
 section.Padres .frase p{
+  color: var(--color-pallete-2);
+
+}
+
+section.Padres .frase{
   color: var(--color-pallete-2);
 }
 
